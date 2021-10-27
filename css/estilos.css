@@ -1,0 +1,248 @@
+/* fuente elegida */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--instagram {
+  background-color: #DDD8C4; }
+
+.btn--twitter {
+  background-color: #55acee; }
+
+.section__ventajas {
+  font-size: 4px; }
+
+.section__ventajas {
+  font-size: 8px; }
+
+.section__ventajas {
+  font-size: 12px; }
+
+.section__ventajas {
+  font-size: 16px; }
+
+@media (min-width: 200px) {
+  body {
+    background-image: linear-gradient(to right, #134E5E, #71B280);
+    display: flex;
+    flex-direction: column; }
+  .listas {
+    color: #DDD8C4;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; }
+  section {
+    display: flex;
+    flex-direction: column; } }
+
+@media (min-width: 600px) {
+  body {
+    background-image: linear-gradient(to right, #134E5E, #71B280);
+    display: flex;
+    flex-direction: column; }
+  .listas {
+    color: #DDD8C4;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; }
+  section {
+    display: flex;
+    flex-direction: column; }
+  .logo {
+    position: relative;
+    margin: 40px;
+    border: double 2px;
+    animation: aparecer 1s; } }
+
+@media (min-width: 1001px) {
+  body {
+    background-image: linear-gradient(to right, #134E5E, #71B280); }
+    body header .header__containerNavBar__img {
+      margin: 20px 80px;
+      display: flex;
+      border: double 2px;
+      animation: aparecer 1s; }
+    body header .header__containerNavBar__lista {
+      display: flex;
+      display: block;
+      margin-left: 150px;
+      font-size: larger; }
+    body header .header__containerNavBar__lista__sublista {
+      position: absolute;
+      display: none; }
+    body header div li:hover ul {
+      display: block; } }
+
+nav {
+  display: flex;
+  background-image: linear-gradient(to right, #134E5E, #71B280); }
+
+#header {
+  display: flex; }
+
+a:hover {
+  color: floralwhite;
+  transform: scale(1, 1.2);
+  font-family: 'Ubuntu', sans-serif; }
+
+a:link {
+  text-decoration: none; }
+
+.main__texto {
+  display: flex;
+  justify-content: center;
+  color: #DDD8C4;
+  flex-direction: column;
+  margin: 40px 100px; }
+
+/* animaciones */
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 700px;
+  margin-top: 30px; }
+
+/* estilos titulo y subtitulo */
+.imagenIndex {
+  display: flex;
+  border: double 2px;
+  animation: aparecer 1s; }
+
+.section__ventajas {
+  color: #DDD8C4; }
+
+/* Pagina Construcciones */
+main .main__textoConstr {
+  text-align: right;
+  border-bottom: solid 2px #DDD8C4;
+  margin: 10px 100px; }
+
+main .main__section__textoConstr {
+  text-align: right;
+  border-bottom: solid 2px #DDD8C4;
+  margin: 10px 100px; }
+
+main .main__imagenConstr {
+  margin: 30px 200px;
+  padding: 20px;
+  border: dotted 2px #DDD8C4;
+  animation: aparecer 1s; }
+
+main .main__section__videoConstr {
+  display: flex;
+  margin: 30px 200px;
+  padding: 20px;
+  border: dotted 2px #DDD8C4; }
+
+/* Pagina Sustentabilidad */
+section .section__subBiodig {
+  text-align: center;
+  color: #DDD8C4;
+  margin: 10px 100px;
+  font-family: 'Ubuntu', sans-serif; }
+
+section .section__textoBiodig {
+  text-align: right;
+  color: #DDD8C4;
+  border-bottom: solid 2px #DDD8C4;
+  margin: 10px 100px; }
+
+section .section__imgBiodig {
+  margin: 30px 400px;
+  padding: 20px;
+  border: dotted 2px #DDD8C4;
+  animation: aparecer 1s; }
+
+section .section__videoBiodig {
+  margin: 30px 250px;
+  padding: 20px;
+  border: dotted 2px #DDD8C4; }
+
+/* Pagina Voluntariado */
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  main .main__txt {
+    text-align: center;
+    color: #DDD8C4;
+    margin: 30px 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px; }
+    main .main__txt .main__tabla {
+      color: #DDD8C4;
+      display: flex;
+      justify-content: space-evenly;
+      flex-flow: row;
+      margin: 20px;
+      font-family: 'Ubuntu',sans-serif; }
+
+/* estilo nosotros */
+.container .container__bsAs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px black; }
+  .container .container__bsAs .imgNos {
+    animation: aparecer 1s;
+    display: flex; }
+
+.container .container__noa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px black; }
+  .container .container__noa .imgNos {
+    animation: aparecer 1s;
+    display: flex; }
+
+.container .container__mendoza {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px black; }
+  .container .container__mendoza .imgNos {
+    animation: aparecer 1s;
+    display: flex; }
+
+/* preguntas contacto */
+.container__contacto {
+  text-align: left;
+  color: #DDD8c4; }
+
+section .section__textPaneles {
+  text-align: right;
+  color: #DDD8C4;
+  border-bottom: solid 2px #DDD8C4;
+  margin: 10px 100px; }
+
+section .section__imgPaneles {
+  margin: 30px 400px;
+  padding: 20px;
+  border: dotted 2px #DDD8C4;
+  animation: aparecer 1s; }
+
+/* newsletter */
+footer {
+  display: flex;
+  margin: 20px; }
+  footer .container {
+    display: flex;
+    justify-content: space-around; }
