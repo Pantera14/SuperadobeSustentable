@@ -90,6 +90,11 @@ a:hover {
 a:link {
   text-decoration: none; }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #DDD8C4; }
+
 .main__texto {
   display: flex;
   justify-content: center;
